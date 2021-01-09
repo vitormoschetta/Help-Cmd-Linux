@@ -131,6 +131,11 @@ find Controllers/ -name HomeController.cs
 <br>
 
 
+### Localizar Diretórios:
+```
+find / -type d -name Home
+```
+> Será buscado diretórios/pastas com o nome _Home_
 
 
 ### Converter caracteres minúsculo para maiúsculo / vice-versa:
