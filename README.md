@@ -6,12 +6,12 @@ pwd
 ```
 
 ### Conteudo do Diretório:
-Diretório atual:
+Conteúdo diretório atual:
 ```
 ls
 ```
 
-Subdiretórios:
+Conteúdo subdiretórios:
 ```
 ls -R
 ```
