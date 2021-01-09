@@ -37,6 +37,13 @@ cat Startup.cs > NovoArquivo.cs
 Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.cs_ com o mesmo conteúdo de _Startup.cs_
 
 
+### Copiar arquivo para outro Diretório:
+```
+cp Program.cs Views/Home/
+```
+Obs: Copia o arquivo _Program.cs_ para o diretório _Views/Home/
+
+
 ### Converter caracteres minúsculo para maiúsculo / vice-versa:
 ```
 cat Program.cs | tr a-z A-Z > NovoArquivo.txt
