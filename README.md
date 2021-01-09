@@ -25,7 +25,7 @@ ls -R
 ```
 cat Startup.cs
 ```
-> Obs: Mostra no terminal o conteúdo texto do arquivo informado
+> Mostra no terminal o conteúdo texto do arquivo informado
 <br>
 
 
@@ -33,7 +33,7 @@ cat Startup.cs
 ```
 cat > AppSettings.cs
 ```
-> Obs: Cria um arquivo com o nome _AppSettings_ de extensão _.cs_  
+> Cria um arquivo com o nome _AppSettings_ de extensão _.cs_  
 > Atenção: Se já houver um arquivo com este nome ele substitui
 <br>
 
@@ -42,7 +42,7 @@ cat > AppSettings.cs
 ```
 cat Startup.cs > NovoArquivo.cs
 ```
-> Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.cs_ com o mesmo conteúdo de _Startup.cs_
+> Cria um arquivo chamado _NovoArquivo_ com extensão _.cs_ com o mesmo conteúdo de _Startup.cs_
 <br>
 
 
@@ -50,7 +50,7 @@ cat Startup.cs > NovoArquivo.cs
 ```
 cp Program.cs Views/Home/
 ```
-> Obs: Copia o arquivo _Program.cs_ para o diretório _Views/Home/
+> Copia o arquivo _Program.cs_ para o diretório _Views/Home/
 <br>
 
 
@@ -58,7 +58,7 @@ cp Program.cs Views/Home/
 ```
 mv Program.cs Views/Home/
 ```
-> Obs: Move o arquivo _Program.cs_ para o diretório _Views/Home/
+> Move o arquivo _Program.cs_ para o diretório _Views/Home/
 <br>
 
 
@@ -66,7 +66,7 @@ mv Program.cs Views/Home/
 ```
 mv AppSettings.cs Settings.cs
 ```
-> Obs: Renomeia AppSettings.cs_ para _Settings.cs_
+> Renomeia AppSettings.cs_ para _Settings.cs_
 <br>
 
 
@@ -82,21 +82,21 @@ Excluir Diretório Vazio:
 ```
 rmdir Configurations
 ```
-> Obs: Só funciona se o diretório _Configurations_ estiver vazio
+> Só funciona se o diretório _Configurations_ estiver vazio
 <br>
 
 Excluir Arquivo de um Diretório:
 ```
 rmdir Configurations/JWT/arquivo.txt
 ```
-> Obs: Irá excluir o _arquivo.txt_
+> Irá excluir o _arquivo.txt_
 <br>
 
 Excluir todo conteúdo de um Diretório:
 ```
 rm -r Configurations
 ```
-> Obs: Cuidado, pois não há mensagem de confirmação.
+> Atençao: Cuidado, pois não há mensagem de confirmação.
 <br>
 
 
@@ -109,7 +109,7 @@ rm -r Configurations
 ```
 cat Program.cs | tr a-z A-Z > NovoArquivo.txt
 ```
-> Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conteúdo de _Program.cs_, porém com as letras em caixa alta.
+> Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conteúdo de _Program.cs_, porém com as letras em caixa alta.
 
 
 
