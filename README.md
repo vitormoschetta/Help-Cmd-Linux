@@ -100,7 +100,21 @@ rm -r Configurations
 <br>
 
 
+### Localizar arquivos no Disco:
+Localizar arquivo com nome Exato:
+```
+locate HomeController
+```
+> É _case-sensitive_, ou seja, diferencia letras maiúsclas de minúsculas
+<br>
 
+Localizar arquivo com nome Aproximado:
+```
+locate -i Home
+```
+> Não é _case-sensitive_
+> Irá imprimir no console todas as linhas de arquivos que possuem a palavra Home
+<br>
 
 
 
