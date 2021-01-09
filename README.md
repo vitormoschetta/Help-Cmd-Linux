@@ -117,6 +117,20 @@ locate -i Home
 <br>
 
 
+### Localizar arquivos no Diretório / Subdiretórios :
+A partir do diretório atual:
+```
+find . -name Program.cs
+```
+<br>
+
+A partir de um diretório específico:
+```
+find Controllers/ -name HomeController.cs
+```
+<br>
+
+
 
 
 ### Converter caracteres minúsculo para maiúsculo / vice-versa:
