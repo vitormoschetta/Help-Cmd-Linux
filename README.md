@@ -44,11 +44,29 @@ cp Program.cs Views/Home/
 Obs: Copia o arquivo _Program.cs_ para o diretório _Views/Home/
 
 
+### Mover arquivo para outro Diretório:
+```
+mv Program.cs Views/Home/
+```
+Obs: Move o arquivo _Program.cs_ para o diretório _Views/Home/
+
+
+### Renomear arquivo:
+```
+mv AppSettings.cs Settings.cs
+```
+Obs: Renomeia AppSettings.cs_ para _Settings.cs_
+
+
+
+
+
 ### Converter caracteres minúsculo para maiúsculo / vice-versa:
 ```
 cat Program.cs | tr a-z A-Z > NovoArquivo.txt
 ```
 Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conteúdo de _Program.cs_, porém com as letras em caixa alta.
+
 
 
 
