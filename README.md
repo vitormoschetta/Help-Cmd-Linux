@@ -64,21 +64,21 @@ mkdir Configurations/JWT
 ```
 
 ### Excluir Diretório / Arquivo
-###### Excluir Diretório Vazio:
+Excluir Diretório Vazio:
 ```
 rmdir Configurations
 ```
 > Obs: Só funciona se o diretório _Configurations_ estiver vazio
 <br>
 
-###### Excluir Arquivo de um Diretório:
+Excluir Arquivo de um Diretório:
 ```
 rmdir Configurations/JWT/arquivo.txt
 ```
 > Obs: Irá excluir o _arquivo.txt_
 <br>
 
-###### Excluir todo conteúdo de um Diretório:
+Excluir todo conteúdo de um Diretório:
 ```
 rm -r Configurations
 ```
