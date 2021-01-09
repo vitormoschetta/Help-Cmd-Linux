@@ -1,11 +1,11 @@
 # Help-Cmd-Linux
 
-#### Diretório atual:
+### Diretório atual:
 ```
 pwd
 ```
 
-#### Conteudo do Diretório:
+### Conteudo do Diretório:
 Diretório atual:
 ```
 ls
@@ -16,13 +16,13 @@ Subdiretórios:
 ls -R
 ```
 
-#### Conteudo de um arquivo:
+### Conteudo de um arquivo:
 ```
 cat Startup.cs
 ```
 Obs: Mostra no terminal o conteúdo texto do arquivo informado
 
-#### Criar novo arquivo:
+### Criar novo arquivo:
 ```
 cat>AppSettings.cs
 ```
