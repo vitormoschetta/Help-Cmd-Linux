@@ -100,7 +100,7 @@ Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conte
 
 
 
-O <html> é uma tag HTML.
+O `<html>` é uma tag HTML.
 
 
 
