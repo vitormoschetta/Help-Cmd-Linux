@@ -100,7 +100,7 @@ Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conte
 
 
 
-O `<blockquote>` é uma tag HTML.
+O <blockquote` é uma tag HTML.
 
 
 
