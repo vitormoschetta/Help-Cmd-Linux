@@ -58,6 +58,27 @@ mv AppSettings.cs Settings.cs
 Obs: Renomeia AppSettings.cs_ para _Settings.cs_
 
 
+### Criar novo Diretório:
+```
+mkdir Configurations/JWT
+```
+
+### Excluir Diretório / Arquivo
+Excluir Diretório:
+```
+rmdir Configurations/JWT
+```
+Obs: Dessa forma só é possível excluir diretório vazio
+
+Excluir Arquivo:
+```
+rmdir Configurations/JWT/arquivo.txt
+```
+Obs: Irá excluir o _arquivo.txt_
+
+
+
+
 
 
 
