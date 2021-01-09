@@ -4,64 +4,78 @@
 ```
 pwd
 ```
+<br>
+
 
 ### Conteudo do Diretório:
  Conteúdo diretório atual:
 ```
 ls
 ```
+<br>
 
 Conteúdo subdiretórios:
 ```
 ls -R
 ```
+<br>
+
 
 ### Conteudo de um arquivo:
 ```
 cat Startup.cs
 ```
-Obs: Mostra no terminal o conteúdo texto do arquivo informado
+> Obs: Mostra no terminal o conteúdo texto do arquivo informado
+<br>
+
 
 ### Criar novo arquivo:
 ```
 cat > AppSettings.cs
 ```
-Obs: Cria um arquivo com o nome _AppSettings_ de extensão _.cs_  
-Atenção: Se já houver um arquivo com este nome ele substitui
+> Obs: Cria um arquivo com o nome _AppSettings_ de extensão _.cs_  
+> Atenção: Se já houver um arquivo com este nome ele substitui
+<br>
 
 
 ### Copiar conteúdo de um arquivo para outro:
 ```
 cat Startup.cs > NovoArquivo.cs
 ```
-Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.cs_ com o mesmo conteúdo de _Startup.cs_
+> Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.cs_ com o mesmo conteúdo de _Startup.cs_
+<br>
 
 
 ### Copiar arquivo para outro Diretório:
 ```
 cp Program.cs Views/Home/
 ```
-Obs: Copia o arquivo _Program.cs_ para o diretório _Views/Home/
+> Obs: Copia o arquivo _Program.cs_ para o diretório _Views/Home/
+<br>
 
 
 ### Mover arquivo para outro Diretório:
 ```
 mv Program.cs Views/Home/
 ```
-Obs: Move o arquivo _Program.cs_ para o diretório _Views/Home/
+> Obs: Move o arquivo _Program.cs_ para o diretório _Views/Home/
+<br>
 
 
 ### Renomear arquivo:
 ```
 mv AppSettings.cs Settings.cs
 ```
-Obs: Renomeia AppSettings.cs_ para _Settings.cs_
+> Obs: Renomeia AppSettings.cs_ para _Settings.cs_
+<br>
 
 
 ### Criar novo Diretório:
 ```
 mkdir Configurations/JWT
 ```
+<br>
+
 
 ### Excluir Diretório / Arquivo
 Excluir Diretório Vazio:
@@ -95,12 +109,9 @@ rm -r Configurations
 ```
 cat Program.cs | tr a-z A-Z > NovoArquivo.txt
 ```
-Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conteúdo de _Program.cs_, porém com as letras em caixa alta.
+> Obs: Cria um arquivo chamado _NovoArquivo_ com extensão _.txt com o mesmo conteúdo de _Program.cs_, porém com as letras em caixa alta.
 
 
-
-
-O `<html>` é uma tag HTML.
 
 
 
