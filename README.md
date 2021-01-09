@@ -26,7 +26,7 @@ Obs: Mostra no terminal o conteúdo texto do arquivo informado
 ```
 cat > AppSettings.cs
 ```
-Obs: Cria um arquivo com o nome _AppSettings_ de extensão _.cs_
+Obs: Cria um arquivo com o nome _AppSettings_ de extensão _.cs_  
 Atenção: Se já houver um arquivo com este nome ele substitui
 
 
