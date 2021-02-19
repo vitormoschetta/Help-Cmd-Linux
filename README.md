@@ -39,6 +39,11 @@ cd ../
 cd ~
 ``` 
 
+##### Navegar p um diretório a partir da Home:
+```
+cd ~/Documents
+```
+
 ##### Criar uma pasta:
 ```
 mkdir nome_pasta
