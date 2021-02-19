@@ -80,12 +80,12 @@ cat Program.cs | tr a-z A-Z > NovoArquivo.txt
 
 
 ##### Localizar arquivos no Disco:
-Localizar arquivo com nome Exato:
+###### Localizar arquivo com nome Exato:
 ```
 locate HomeController
 ```
 
-Localizar arquivo com nome Aproximado:
+###### Localizar arquivo com nome Aproximado:
 ```
 locate -i Home
 ```
