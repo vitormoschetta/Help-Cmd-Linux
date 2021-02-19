@@ -23,7 +23,6 @@ ls -l
 ls -la
 ```
 
-
 ##### Entrar em um diretório:
 ```
 cd Desktop
@@ -47,6 +46,16 @@ cd ~/Documents
 ##### Navegar p o diretório raiz:
 ```
 cd /
+```
+
+
+##### Ver historico de comandos utilizados:
+```
+history 
+```
+###### Pesquisar um comando utilizado:
+```
+pressione Ctrl + R  e digite parte do texto do comando
 ```
 
 ##### Criar uma pasta:
@@ -92,11 +101,6 @@ mv AppSettings.cs Settings.cs
 ##### Efetuar dowload de arquivo:
 ```
 wget + link
-```
-
-##### Ver historico de comandos utilizados:
-```
-history 
 ```
 
 ##### Converter caracteres minúsculo para maiúsculo / vice-versa:
