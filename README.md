@@ -1,7 +1,5 @@
 ## Comandos Linux
 
-Trabalhando com a linha de comando do linux. 
-
 
 ##### Saber o diretório atual:
 ```
