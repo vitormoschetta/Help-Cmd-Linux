@@ -14,6 +14,15 @@ pwd
 ```
 ls
 ```
+###### Conteudo do diretório em lista:
+```
+ls -l
+```
+###### Conteudo do diretório em lista + ocultos:
+```
+ls -la
+```
+
 
 ##### Entrar em um diretório:
 ```
