@@ -1,6 +1,11 @@
 # Help-Cmd-Linux
 
-### Diretório atual:
+Trabalhando com a linha de comando do linux. 
+
+Segue alguns comandos principais:
+
+
+#### Diretório atual:
 ```
 pwd
 ```
