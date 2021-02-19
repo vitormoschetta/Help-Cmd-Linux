@@ -18,7 +18,7 @@ ls
 ```
 ls -l
 ```
-###### Conteudo do diretório em lista + ocultos:
+###### Conteudo do diretório em lista + ocultos (aqui vc encontra o arquivo .ssh que é as chaves utilizadas nos repositórios remotos)
 ```
 ls -la
 ```
