@@ -11,21 +11,22 @@ pwd
 ```
 
 
-
 <br>
 
-
-### Conteudo do Diretório:
- Conteúdo diretório atual:
+Conteudo do diretório:
 ```
 ls
 ```
+
+
 <br>
 
 Conteúdo subdiretórios:
 ```
 ls -R
 ```
+
+
 <br>
 
 
