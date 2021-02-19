@@ -40,14 +40,14 @@ rm -r diretorio
 ```
 cat > arq.txt
 ```
-> Digite o texto de conteúdo do arquivo e pressione Ctrl + z
+Digite o texto de conteúdo do arquivo e pressione Ctrl + z
 
 
 ##### Conteudo de um arquivo:
 ```
 cat Startup.cs
 ```
-> Mostra no terminal o conteúdo texto do arquivo informado
+Mostra no terminal o conteúdo texto do arquivo informado
 
 
 
