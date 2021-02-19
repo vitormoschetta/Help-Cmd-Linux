@@ -1,11 +1,11 @@
-# Comandos Linux
+## Comandos Linux
 
 Trabalhando com a linha de comando do linux. 
 
 
 <br>
 
-Saber o diretório atual:
+##### Saber o diretório atual:
 ```
 pwd
 ```
@@ -13,10 +13,30 @@ pwd
 
 <br>
 
-Conteudo do diretório:
+##### Conteudo do diretório:
 ```
 ls
 ```
+
+<br>
+
+##### Conteudo do diretório:
+```
+ls
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
@@ -30,15 +50,16 @@ ls -R
 <br>
 
 
-### Conteudo de um arquivo:
+Conteudo de um arquivo:
 ```
 cat Startup.cs
 ```
 > Mostra no terminal o conteúdo texto do arquivo informado
+
 <br>
 
 
-### Criar novo arquivo:
+Criar novo arquivo:
 ```
 cat > AppSettings.cs
 ```
