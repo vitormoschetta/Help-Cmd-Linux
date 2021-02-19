@@ -1,5 +1,9 @@
 ## Comandos Linux
 
+##### Saber conta de usuário logado:
+```
+whoami
+```
 
 ##### Saber o diretório atual:
 ```
