@@ -3,22 +3,15 @@
 Trabalhando com a linha de comando do linux. 
 
 
-<br>
-
 ##### Saber o diretório atual:
 ```
 pwd
 ```
 
-
-<br>
-
 ##### Conteudo do diretório:
 ```
 ls
 ```
-
-<br>
 
 ##### Conteudo do diretório:
 ```
