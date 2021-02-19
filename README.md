@@ -102,14 +102,14 @@ find Controllers/ -name HomeController.cs
 ```
 
 ##### Localizar Diretórios:
-Será buscado diretórios/pastas com o nome _Home_:
+###### Será buscado diretórios/pastas com o nome _Home_:
 ```
 find / -type d -name Home
 ```
 
 ##### Localizar Texto em um Arquivo:
-Será buscado a palavra _Startup_ no arquivo _Program.cs_
-Se o arquivo for encontrado será mostrada toda a linha onde contém a palavra pesquisada:
+###### Será buscado a palavra _Startup_ no arquivo _Program.cs_
+###### Se o arquivo for encontrado será mostrada toda a linha onde contém a palavra pesquisada:
 ```
 grep Startup Program.cs
 ```
@@ -120,7 +120,7 @@ df -m
 ```
 
 ##### Comparar Diferença no conteúdo entre dois arquivos:
-Imprime as linhas diferentes entre eles:
+###### Imprime as linhas diferentes entre eles:
 ```
 diff HomeController.cs UserController.cs
 ```
