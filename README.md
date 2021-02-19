@@ -11,31 +11,52 @@ pwd
 ls
 ```
 
-##### Conteudo do diretório:
+##### Entrar em um diretório:
 ```
-ls
+cd Desktop
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-
-Conteúdo subdiretórios:
+##### Sair de um diretório:
 ```
-ls -R
+cd ../
 ```
+
+##### Criar uma pasta:
+```
+mkdir nome_pasta
+```
+
+##### Excluir arquivo ou pasta vazia:
+```
+rmdir nome_pasta
+```
+
+##### Excluir diretório inteiro:
+```
+rm -r diretorio
+```
+
+##### Criar arquivo texto:
+```
+cat > arq.txt
+```
+Digite o texto de conteúdo do arquivo e pressione Ctrl + z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
@@ -91,20 +112,8 @@ mv AppSettings.cs Settings.cs
 <br>
 
 
-### Criar novo Diretório:
-```
-mkdir Configurations/JWT
-```
-<br>
 
 
-### Excluir Diretório / Arquivo
-Excluir Diretório Vazio:
-```
-rmdir Configurations
-```
-> Só funciona se o diretório _Configurations_ estiver vazio
-<br>
 
 Excluir Arquivo de um Diretório:
 ```
