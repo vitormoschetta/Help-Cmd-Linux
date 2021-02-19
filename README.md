@@ -2,13 +2,16 @@
 
 Trabalhando com a linha de comando do linux. 
 
-Segue alguns comandos principais:
 
+<br>
 
-#### Diretório atual:
+Saber o diretório atual:
 ```
 pwd
 ```
+
+
+
 <br>
 
 
