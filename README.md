@@ -34,6 +34,11 @@ cd Desktop
 cd ../
 ```
 
+##### Ir para o diretório raiz (home):
+```
+cd ~
+``` 
+
 ##### Criar uma pasta:
 ```
 mkdir nome_pasta
