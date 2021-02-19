@@ -34,14 +34,19 @@ cd Desktop
 cd ../
 ```
 
-##### Ir para o diretório raiz (home):
+##### Ir para o diretório home/user:
 ```
 cd ~
 ``` 
 
-##### Navegar p um diretório a partir da Home:
+##### Navegar p um diretório a partir do home/user:
 ```
 cd ~/Documents
+```
+
+##### Navegar p o diretório raiz:
+```
+cd /
 ```
 
 ##### Criar uma pasta:
