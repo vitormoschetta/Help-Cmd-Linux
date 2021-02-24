@@ -98,6 +98,15 @@ mv Program.cs Views/Home/
 mv AppSettings.cs Settings.cs
 ```
 
+##### Renomear arquivo:
+```
+zip -r --password <password> <new_zipfile> <filename>
+```
+
+
+
+
+
 ##### Efetuar dowload de arquivo:
 ```
 wget + link
