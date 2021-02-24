@@ -1,4 +1,20 @@
-## Comandos Linux
+# Comandos Linux
+
+## Conexão
+
+##### Ping
+```
+ping hostname
+```
+
+##### Telnet
+```
+telnet [host] [port]
+```
+
+<br>
+
+## Local
 
 ##### Saber conta de usuário logado:
 ```
