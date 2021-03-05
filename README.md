@@ -22,11 +22,6 @@ pressione Ctrl + R  e digite parte do texto do comando
 
 
 
-##### Permissão para gravar em diretório e/ou arquivo:
-```
-sudo chmod a+rwx /path/
-```
-
 ##### Zip arquivo:
 ```
 zip <new_zipfile_name> <file>
