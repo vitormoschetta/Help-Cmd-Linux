@@ -25,9 +25,11 @@ sudo chown vfarias <file_name>
 ls -l teste.txt
 ```
   
-  saída:   
-    -rw-r--r-- 1 vfarias vfarias 11 mar  5 15:09 teste.txt
+    saída:   
+    
+      -rw-r--r-- 1 vitor admins 11 mar  5 15:09 teste.txt
 
+A saída acima, informa que o arquivo `teste.txt` é de propriedade do usuario **vitor** e pertence ao grupo **admins**
 
 
 <br>
