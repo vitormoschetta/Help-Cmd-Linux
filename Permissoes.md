@@ -7,6 +7,10 @@
 sudo chmod a+rwx /path/
 ```
 
+- r = leitura.
+- w = gravação.
+- x = execução (para arquivos) ou autorização de acesso (para diretórios).
+
 
 ##### Defini o proprietário (owner) do arquivo:
 ```
