@@ -2,13 +2,17 @@
 
 
 
-##### Permissão para gravar em diretório e/ou arquivo:
+##### Define as permisses para gravar em diretório e/ou arquivo:
 ```
 sudo chmod a+rwx /path/
 ```
 
 
-##### Alterar dono (owner) do recurso:
+##### Defini o proprietário (owner) do arquivo:
 ```
 sudo chown vfarias <file_name>
 ```
+
+
+
+<https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown>
