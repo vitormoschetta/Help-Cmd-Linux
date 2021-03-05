@@ -13,11 +13,20 @@ sudo chmod a+rwx /path/
 
 <br>
 
-##### Defini o proprietário (owner) do arquivo:
+##### Define o proprietário (owner) do arquivo:
 ```
 sudo chown vfarias <file_name>
 ```
 
+<br>
+
+##### Verifica permissões e proprietário do arquivo:
+```
+ls -l teste.txt
+```
+  
+  saída: 
+    -rw-r--r-- 1 vfarias vfarias 11 mar  5 15:09 teste.txt
 
 
 <https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown>
