@@ -25,5 +25,7 @@ Processos em execução
 ### tmp
 Arquivos temporários
 
+### etc
+No diretório /etc ficam arquivos de configuração que podem ser usados por todos os softwares, além de scripts especiais para iniciar ou interromper módulos e programas diversos. 
 
 
