@@ -81,17 +81,22 @@ pressione Ctrl + R  e digite parte do texto do comando
 
 ##### Criar uma pasta:
 ```
-mkdir nome_pasta
+mkdir <folder_name>
+```
+
+##### Criar diretório e subdiretórios:
+```
+mkdir - p <path/path...>
 ```
 
 ##### Excluir arquivo ou pasta vazia:
 ```
-rmdir nome_pasta
+rmdir <folder_name>
 ```
 
 ##### Excluir diretório inteiro:
 ```
-rm -r diretorio
+rm -r <path or folder_name>
 ```
 
 ##### Criar arquivo texto:
