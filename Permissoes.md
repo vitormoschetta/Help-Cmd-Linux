@@ -29,4 +29,10 @@ ls -l teste.txt
     -rw-r--r-- 1 vfarias vfarias 11 mar  5 15:09 teste.txt
 
 
+
+<br>
+<br>
+
+##### Referências:
+
 <https://askubuntu.com/questions/918379/what-is-the-main-difference-between-chmod-and-chown>
