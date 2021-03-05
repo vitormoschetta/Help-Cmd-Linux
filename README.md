@@ -6,6 +6,11 @@
 ```
 ping hostname
 ```
+ou 
+```
+ping -c 4 hostname
+```
+
 
 ##### Telnet
 ```
@@ -112,6 +117,11 @@ mv Program.cs Views/Home/
 ##### Renomear arquivo:
 ```
 mv AppSettings.cs Settings.cs
+```
+
+##### Permissão para gravar em diretório e/ou arquivo:
+```
+sudo chmod a+rwx /path/
 ```
 
 ##### Zip arquivo:
