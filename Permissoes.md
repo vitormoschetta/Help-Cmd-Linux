@@ -25,7 +25,7 @@ sudo chown vfarias <file_name>
 ls -l teste.txt
 ```
   
-  saída: 
+  saída:   
     -rw-r--r-- 1 vfarias vfarias 11 mar  5 15:09 teste.txt
 
 
