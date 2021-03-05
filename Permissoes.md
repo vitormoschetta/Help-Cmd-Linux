@@ -11,6 +11,7 @@ sudo chmod a+rwx /path/
 - w = gravação.
 - x = execução (para arquivos) ou autorização de acesso (para diretórios).
 
+<br>
 
 ##### Defini o proprietário (owner) do arquivo:
 ```
