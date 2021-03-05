@@ -20,50 +20,7 @@ history
 pressione Ctrl + R  e digite parte do texto do comando
 ```
 
-##### Criar uma pasta:
-```
-mkdir <folder_name>
-```
 
-##### Criar diretório e subdiretórios:
-```
-mkdir - p <path/path...>
-```
-
-##### Excluir arquivo ou pasta vazia:
-```
-rmdir <folder_name>
-```
-
-##### Excluir diretório inteiro:
-```
-rm -r <path or folder_name>
-```
-
-##### Criar arquivo texto:
-```
-cat > arq.txt
-```
-
-##### Conteudo de um arquivo:
-```
-cat Startup.cs
-```
-
-##### Copiar conteúdo de um arquivo para outro:
-```
-cat Startup.cs > NovoArquivo.cs
-```
-
-##### Mover arquivo para outro Diretório:
-```
-mv Program.cs Views/Home/
-```
-
-##### Renomear arquivo:
-```
-mv AppSettings.cs Settings.cs
-```
 
 ##### Permissão para gravar em diretório e/ou arquivo:
 ```
