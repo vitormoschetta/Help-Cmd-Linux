@@ -23,7 +23,7 @@ pressione Ctrl + R  e digite parte do texto do comando
 
 ##### Efetuar dowload de arquivo:
 ```
-wget + link
+wget <url>
 ```
 
 ##### Converter caracteres minúsculo para maiúsculo / vice-versa:
@@ -35,6 +35,7 @@ cat Program.cs | tr a-z A-Z > NovoArquivo.txt
 
 
 ##### Localizar arquivos no Disco:
+
 ###### Localizar arquivo com nome Exato:
 ```
 locate HomeController
