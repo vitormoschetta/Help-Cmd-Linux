@@ -1,24 +1,29 @@
 ##### Criar arquivo texto:
 ```
-cat > arq.txt
+cat > teste.txt
 ```
 
 ##### Conteudo de um arquivo:
 ```
-cat Startup.cs
+cat teste.txt
 ```
 
 ##### Copiar conteúdo de um arquivo para outro:
 ```
-cat Startup.cs > NovoArquivo.cs
+cat teste.txt > teste02.txt
+```
+
+##### Copiar arquivo para outro Diretório:
+```
+cp teste.txt <path>
 ```
 
 ##### Mover arquivo para outro Diretório:
 ```
-mv Program.cs Views/Home/
+mv teste.txt <path>
 ```
 
 ##### Renomear arquivo:
 ```
-mv AppSettings.cs Settings.cs
+mv teste.txt teste_b.txt
 ```
