@@ -3,16 +3,16 @@
 
 ##### Ping
 ```
-ping hostname
+ping <hostname>
 ```
 ou 
 ```
-ping -c 4 hostname
+ping -c 4 <hostname>
 ```
 
 
 ##### Telnet
 ```
-telnet [host] [port]
+telnet <hostname> <port>
 ```
 
