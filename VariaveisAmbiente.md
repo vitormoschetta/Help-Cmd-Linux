@@ -13,7 +13,7 @@ printenv <var_name>
 export VAR="value"
 ```
 Onde:
-- `export` é o comando usado para criar uma variável;
+- `export` - é o comando usado para criar uma variável;
 - `VAR` – é o nome da variável;
 - `“value”` – é o próprio valor da variável.
 
