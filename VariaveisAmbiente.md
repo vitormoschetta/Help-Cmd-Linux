@@ -18,6 +18,18 @@ Onde:
 - `“value”` é o próprio valor da variável.
 
 
+
+#### Desativar uma variável
+```
+unset VAR
+```
+Onde:
+- `unset` é o comando usado;
+- `VAR` é a variável que você quer desativar. 
+
+
+
+
 <br>
 <br>
 
