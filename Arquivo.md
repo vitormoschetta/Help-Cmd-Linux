@@ -18,6 +18,11 @@ cat teste.txt > teste02.txt
 cp teste.txt <path>
 ```
 
+##### Copiar todos os arquivos de uma pasta para outra:
+```
+cp -a /source/. /dest/
+```
+
 ##### Mover arquivo para outro Diretório:
 ```
 mv teste.txt <path>
