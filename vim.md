@@ -52,6 +52,20 @@ gg
 
 <br>
 
+#### Buscar e substituir:
+``` 
+:%s/texto/novo_texto
+```
+
+<br>
+
+#### Buscar e substituir (ser avisado em cada item se deseja realmente substituir):
+``` 
+:%s/texto/novo_texto/gc
+```
+
+<br>
+
 
 #### Help:
 ``` 
