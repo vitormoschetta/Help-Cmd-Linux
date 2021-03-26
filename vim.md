@@ -1,3 +1,9 @@
+#### Instalação:
+``` 
+apt-get install vim
+```
+
+
 #### Abrir um arquivo:
 ``` 
 vi file.txt
@@ -42,6 +48,14 @@ gg
 #### Sair sem salvar:
 ``` 
 :q!
+```
+
+<br>
+
+
+#### Help:
+``` 
+:help
 ```
 
 <br>
