@@ -33,3 +33,10 @@ gg
 ```
 
 <br>
+
+#### Sair sem salvar:
+``` 
+:q!
+```
+
+<br>
