@@ -64,13 +64,13 @@ gg
 :%s/texto/novo_texto/gc
 ```
 Opções:
-    y: sim
-    n: não
-    a: substituir tudo
-    q: sair
-    l: substitua esta ocorrência e saia
-    ^ E (Ctrl + E) : Rolar uma tela para cima
-    ^ Y (Ctrl + Y) : Rola uma tela para baixo
+    y: sim  
+    n: não  
+    a: substituir tudo  
+    q: sair  
+    l: substitua esta ocorrência e saia  
+    ^ E (Ctrl + E) : Rolar uma tela para cima   
+    ^ Y (Ctrl + Y) : Rola uma tela para baixo  
 
 
 <br>
