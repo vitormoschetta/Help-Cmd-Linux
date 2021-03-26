@@ -32,3 +32,8 @@ mv teste.txt <path>
 ```
 mv teste.txt teste_b.txt
 ```
+
+##### Excluir/Deletar arquivo
+```
+rm teste.txt 
+```
