@@ -24,6 +24,11 @@ Pressione a tecla `Esc` e em seguida digite:
 :1,$d
 ```
 
+ou, estando na última linha do arquivo, digitar:
+``` 
+dggg
+```
+
 <br>
 
 #### Navegar para o início do arquivo (primeiro caractere, primeira linha):
