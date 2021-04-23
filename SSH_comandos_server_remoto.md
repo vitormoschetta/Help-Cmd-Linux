@@ -23,33 +23,40 @@ Onde:
 
 <br>
 
+Obs: Depois de conectado ao servidor remoto pode-se utilizar comandos bash para manipular os arquivos, diretórios e aplicações.  
 
-#### Executar comandos no servidor remoto
+<br>
+
+#### Executar comandos diretos:
 ```
-ssh user1@server1 'command1'
-```
-ou
-```
-ssh user1@server1 'command1 | command2'
+ssh [user]@[server_ip_or_dns] [command]
 ```
 ou
 ```
-ssh user1@server1 "command1; command2; command3"
+ssh [user]@[server_ip_or_dns] [command01] | [command02]
 ```
+ou
+```
+ssh [user]@[server_ip_or_dns] "[command01]; [command02]; [command03]"
+```
+<br>
+
 Exemplo que verifica o espaço em disco da máquina remota:
 ```
 ssh user1@server1 'df -H'
 ```
 
+<br>
+
 #### Executar um script (varias linhas de comando)
-Criar um arquivo. ex: `commands.txt` contendo os comandos um em cada linha, ex: 
+Criar um arquivo. ex: `commands.sh` contendo os comandos um em cada linha, ex: 
 ```
 date
 df -H
 ```
 Em seguida executar:
 ```
-ssh user1@server1 < commands.txt
+ssh user1@server1 < commands.sh
 ```
 
 
