@@ -82,3 +82,5 @@ scp -i [path]/[key.pem] /home/user/[filename] [user]@[server_ip_or_dns]:[path]
 <https://www.cyberciti.biz/faq/unix-linux-execute-command-using-ssh/>
 
 <http://wiki.integrator.com.br/index.php?title=Copiando_arquivos_com_SCP>
+
+<https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-pt>
