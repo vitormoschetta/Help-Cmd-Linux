@@ -3,11 +3,11 @@ O programa cliente SSH pode ser usado para fazer **login** em uma máquina ou se
 
 #### Acessar servidor remoto
 ```
-ssh <user>@<server_ip_or_dns>
+ssh [user]@[server_ip_or_dns]
 ```
 Onde:  
-<user> é o nome do usuário de acesso ao servidor;  
-<server_ip_or_dns> endereço IP ou DNS do servidor.  
+[user] é o nome do usuário de acesso ao servidor;  
+[server] é o endereço IP ou DNS do servidor.  
   
 <br>
 
