@@ -16,10 +16,10 @@ Onde:
 ssh -i /<path>/<key.pem> <user>@<server_ip_or_dns>
 ```
 Onde:  
-<key.pem> deve ser substituído pelo nome do arquivo que possui a chave privada;  
-<path> é o diretório que a chave privada está localizada;  
-<user> idem anterior;  
-<server_ip_or_dns> idem anterior.  
+<key.pem> deve ser substituído pelo nome do arquivo que possui a chave privada;   
+<path> é o diretório que a chave privada está localizada;    
+<user> idem anterior;    
+<server_ip_or_dns> idem anterior.    
 
 <br>
 
