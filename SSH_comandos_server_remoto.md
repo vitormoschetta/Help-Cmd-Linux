@@ -3,8 +3,24 @@ O programa cliente SSH pode ser usado para fazer **login** em uma máquina ou se
 
 #### Acessar servidor remoto
 ```
-ssh user1@server1
+ssh <user>@<server_ip_or_dns>
 ```
+Onde:  
+<user> é o nome do usuário de acesso ao servidor;  
+<server_ip_or_dns> endereço IP ou DNS do servidor.  
+  
+<br>
+
+#### Acessar servidor utilizando uma chave privada
+```
+ssh -i /<path>/<key.pem> <user>@<server_ip_or_dns>
+```
+Onde:  
+<key.pem> deve ser substituído pelo nome do arquivo que possui a chave privada;  
+<path> é o diretório que a chave privada está localizada;  
+<user> idem anterior;  
+<server_ip_or_dns> idem anterior.  
+
 
 #### Executar comandos no servidor remoto
 ```
