@@ -59,5 +59,18 @@ Em seguida executar:
 ssh user1@server1 < commands.sh
 ```
 
+<br>
+
+#### Baixar arquivos de um servidor remoto:
+```
+scp -i  -i [path]/[key.pem] [user]@[server_ip_or_dns]:[filename] /home/user/Downloads
+```
+No exemplo acima estamos baixando um arquivo [filename] existente em um servidor remoto para a pasta local de Downloads
+
+
+<br>
+<br>
+
+### Referências:
 
 <https://www.cyberciti.biz/faq/unix-linux-execute-command-using-ssh/>
