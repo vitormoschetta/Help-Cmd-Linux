@@ -21,6 +21,8 @@ Onde:
 <user> idem anterior;  
 <server_ip_or_dns> idem anterior.  
 
+<br>
+
 
 #### Executar comandos no servidor remoto
 ```
