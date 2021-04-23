@@ -63,10 +63,16 @@ ssh user1@server1 < commands.sh
 
 #### Baixar arquivos de um servidor remoto:
 ```
-scp -i  -i [path]/[key.pem] [user]@[server_ip_or_dns]:[filename] /home/user/Downloads
+scp -i [path]/[key.pem] [user]@[server_ip_or_dns]:[filename] /home/user/Downloads
 ```
 No exemplo acima estamos baixando um arquivo [filename] existente em um servidor remoto para a pasta local de Downloads
 
+<br>
+
+#### Enviar / Upload de arquivos para o servidor remoto:
+```
+scp -i [path]/[key.pem] /home/user/[filename] [user]@[server_ip_or_dns]:[path] 
+```
 
 <br>
 <br>
@@ -74,3 +80,5 @@ No exemplo acima estamos baixando um arquivo [filename] existente em um servidor
 ### Referências:
 
 <https://www.cyberciti.biz/faq/unix-linux-execute-command-using-ssh/>
+
+<http://wiki.integrator.com.br/index.php?title=Copiando_arquivos_com_SCP>
