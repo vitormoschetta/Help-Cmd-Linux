@@ -28,6 +28,6 @@ curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elas
 É possível referenciar um arquivo JSON para ir no corpo da requisição:
 ```
 curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elasticbeanstalk.com/api/product \ 
--H "Content-type: application/json" -d @content.json
+-H "Content-type: application/json" -d @files/content.json
 ```
 
