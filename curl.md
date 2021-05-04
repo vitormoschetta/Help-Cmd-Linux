@@ -31,3 +31,13 @@ curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elas
 -H "Content-type: application/json" -d @files/content.json
 ```
 
+
+
+<br>
+<br>
+
+### Referências
+
+<https://devcontent.com.br/artigos/linux/lista-de-comandos-curl>
+
+<https://www.hostinger.com.br/tutoriais/comando-curl-linux>
