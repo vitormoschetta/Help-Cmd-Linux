@@ -20,12 +20,14 @@ curl --location --request GET http://aspnetcore-dev.eba-idh62xks.us-east-1.elast
 
 ## POST 
 ```
-curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elasticbeanstalk.com/api/product -H "Content-type: application/json" -d '{ "name": "Sardinha enlatada", "price": 5.50 }'
+curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elasticbeanstalk.com/api/product \ 
+-H "Content-type: application/json" -d '{ "name": "Sardinha enlatada", "price": 5.50 }'
 ```
 
 
 É possível referenciar um arquivo JSON para ir no corpo da requisição:
 ```
-curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elasticbeanstalk.com/api/product -H "Content-type: application/json" -d @content.json
+curl --location --request POST http://aspnetcore-dev.eba-idh62xks.us-east-1.elasticbeanstalk.com/api/product \ 
+-H "Content-type: application/json" -d @content.json
 ```
 
