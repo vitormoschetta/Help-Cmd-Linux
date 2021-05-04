@@ -1,13 +1,38 @@
 
 # Curl
 
-O Curl é uma ferramenta de linha de comando utilizada para obter e enviar dados em diversos protocolos.
+O que é Comando Curl? É um comando disponível na maioria dos sistemas baseado em Unix. Ele é usado como abreviação para “Client URL”. Comandos Curl são destinados para funcionar como uma forma de verificar a conectividade da URL, além de ser uma ótima ferramenta de transferência de dados. 
 
-Seu nome provém de Client URL, que significa, URL do cliente. Ele está disponível, nativamente, na grande maioria dos sistemas operacionais baseados em Unix.
+O Comando Curl suporta a lista de protocolos abaixo:
 
-Nosso foco aqui é demonstrar os comandos mais utilizados para simular um cliente HTTP.  
+    HTTP e HTTPS;
+    FTP e FTPS;
+    IMAP e IMAPS;
+    POP3 e POP3S;
+    SMB e SMBS;
+    SFTP;
+    SCP;
+    TELNET;
+    GOPHER;
+    LDAP e LDAPS;
+    SMTP e SMTPS.
+    
+Para saber a versão instalada e os protocolos aceitos pela versão:
+```
+curl --version
+```
 
-Basicamente, um comando Curl é composto pela palavra curl, seguida de uma url e das opções.
+Nosso foco aqui é demonstrar os comandos mais utilizados para simular um cliente HTTP:
+
+```
+curl https://www.google.com/
+```
+A requisição acima vai imprimir no console o HTML da página do Google.  
+
+Podemos também salvar esse conteúdo em um arquivo específico:
+```
+curl -o file.html https://www.google.com/
+```
 
 
 ## GET 
