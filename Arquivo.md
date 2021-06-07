@@ -8,6 +8,11 @@ cat > teste.txt
 cat teste.txt
 ```
 
+##### Procurar por um texto especifico no arquivo:
+```
+cat README.md | grep seed
+```
+
 ##### Copiar conteúdo de um arquivo para outro:
 ```
 cat teste.txt > teste02.txt
