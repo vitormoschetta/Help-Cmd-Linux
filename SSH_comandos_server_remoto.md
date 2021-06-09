@@ -65,13 +65,21 @@ ssh user1@server1 < commands.sh
 ```
 scp -i [path]/[key.pem] [user]@[server_ip_or_dns]:[filename] /home/user/Downloads
 ```
-No exemplo acima estamos baixando um arquivo [filename] existente em um servidor remoto para a pasta local de Downloads
+No exemplo acima estamos baixando um arquivo [filename] existente em um servidor remoto para a pasta local de Downloads.  
+Segue um exemplo pratico:
+```
+scp -i /opt/aws/automation.pem user@ip_or_dns:/home/user/file.txt /home/user/Downloads
+```
 
 <br>
 
 #### Enviar / Upload de arquivos para o servidor remoto:
 ```
 scp -i [path]/[key.pem] /home/user/[filename] [user]@[server_ip_or_dns]:[path] 
+```
+Segue um exemplo pratico:
+```
+scp -i /opt/aws/automation.pem /home/user/file.txt user@ip_or_dns:/home/user/
 ```
 
 <br>
